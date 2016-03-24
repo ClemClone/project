@@ -86,3 +86,5 @@ meHrvTr <- lme(DHt~Volume + Circularity*Volume + Circularity*CumHt + Volume*CumH
 # saving state
 save(ordGapTrees, harvestTrees, file="treesData.RData", ascii=TRUE)
 load("treesData.RData")
+
+TEST CHANGE
